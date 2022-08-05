@@ -46,7 +46,7 @@ h1 {
   row-gap: 8px;
 }
 
-.input-group:first-child {
+.input-group:not(:last-child) {
   margin-bottom: 20px;
 }
 
